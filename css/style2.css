@@ -1,0 +1,49 @@
+.footer2{
+  margin-top:2em;
+  margin-bottom:4em;
+  text-align: center;
+}
+
+.li-a{
+  margin-bottom: 20px;
+}
+
+.sec-canvas{
+  margin: 50px 0px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.stl-canvas{
+  border: 3px solid black;
+  padding-top: 30px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  background-color: white;
+}
+
+
+.stl-canvas:hover{
+  transition: all 0.3s;
+  background-color: springgreen;
+  border: 3px solid rgba(50,50,50, 0.7);
+}
+.stl-canvas:hover h5{
+  color: black;
+  transition: all 0.3s;
+}
+
+.stl-canvas img{
+  margin-bottom: 20px;
+  max-width: 60px;
+}
+.stl-canvas h5{
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: cadetblue;
+  transition: all 0.3s;
+}
